@@ -1,0 +1,23 @@
+#header{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    background-color: black
+}
+#header{
+    height: auto;
+}
+.zaholovku{
+    color: white;
+    font-size: 30px;
+}
+#pidzaholobok{
+     display: -webkit-flex;
+     display: flex;
+}
+article{
+    width: 200px;
+}
+.aside {
+  -webkit-flex: 1;
+          
+}
