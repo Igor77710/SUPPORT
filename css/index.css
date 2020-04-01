@@ -1,6 +1,4 @@
-.body{
-    background-image: url(https://www.google.com/imgres?imgurl=http%3A%2F%2Fwww.mitsubishicarbide.net%2Fcontents%2Fcommon%2Fimages%2Fsolid_end_mills_VFSD_01.jpg&imgrefurl=http%3A%2F%2Fwww.mitsubishicarbide.net%2Fmhg%2Fru%2Fsolid_end_mills%2F10000298%2F&tbnid=QUJTPWJpTHI9ZM&vet=12ahUKEwjg5v-_9sToAhXItSoKHRzSDYsQMygBegUIARDTAQ..i&docid=Wy1vZWN2ex8tIM&w=600&h=300&itg=1&q=vfsd&ved=2ahUKEwjg5v-_9sToAhXItSoKHRzSDYsQMygBegUIARDTAQ);
-}
+
 #header{
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
@@ -35,4 +33,10 @@ article{
 li{
     font-size: 20px;
     font-style: bold;
+}
+.banner{
+    background-image: url(../img/fon.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
 }
