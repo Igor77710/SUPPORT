@@ -1,42 +1,65 @@
-
-#header{
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    background-color: black;
-}
-#header  {
-  -webkit-flex: 1;
-          flex: 1;
-}
- #header{
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+ 
+ :root{
+   font-family: 'Roboto Slab', serif;
+ }
+ 
+ header {
   position: fixed;
   top: 0;
-  left: 0;
   height: 70px;
+  background-image: url(../img/fon1.png);
   width: 100%;
- }
-#header{
-    height: auto;
 }
-.zaholovku{
+header nav .top-menu{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+}
+header nav h1{
+    text-align: center;
+}
+@media (min-width: 600px){
+header nav{
+        display: flex;
+    }
+    header .top-menu{
+        flex: 1;
+        align-items: center;
+    }
+    header {
+        height: 90px;
+    }
+    section{
+    margin-top: 90px;
+    }
+ header nav .top-menu li a{
+border: 2px solid yellow;
+    padding: 7px;
+    }
+}
+@media (max-width: 599px){
+    header {
+        height: 100px;
+    }
+    section{
+    margin-top: 100px;
+    }
+    header nav .top-menu li a{
+    padding: 3px;
+     border: 1px solid yellow;
+     font-size: 13px;
+    }
+}
+header nav .top-menu li a{
+     text-decoration: none;
+    text-transform: uppercase;
     color: white;
-    font-size: 30px;
 }
-#pidzaholobok{
-     display: -webkit-flex;
-     display: flex;
+header nav .top-menu li a{
+    background-color: black;
 }
-article{
-    width: 200px;
-}
-
-li{
-    font-size: 20px;
-    font-style: bold;
-}
-.banner{
-    background-image: url(../img/fon.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 500px;
+h1{
+    color: red;
 }
